@@ -1,0 +1,156 @@
+ros-jazzy-kobuki-velocity-smoother (0.15.0-5bookworm) bookworm; urgency=high
+
+  * Rename the package to kobuki_velocity_smoother. (#20 <https://github.com/kobuki-base/kobuki_velocity_smoother/issues/20>)
+  * Make a few more style fixes for older cpplint. (#18 <https://github.com/kobuki-base/kobuki_velocity_smoother/issues/18>)
+  * Update the README.md (#17 <https://github.com/kobuki-base/kobuki_velocity_smoother/issues/17>)
+  * Don't install test artifacts. (#16 <https://github.com/kobuki-base/kobuki_velocity_smoother/issues/16>)
+  * Minor cleanup of the includes.
+  * Remove the internal accel_lim_w variable.
+  * Remove internal accel_lim_v.
+  * Remove decel_factor internal variable.
+  * Remove internal decel_lim_w variable.
+  * Remove internal decel_lim_v variable.
+  * Remove speed_lim_w internal variable.
+  * Remove speed_lim_v internal variable.
+  * Remove the quiet internal variable.
+  * Make sure to allow other parameters in the list.
+  * Enable the style checkers, and fix the style to conform. (#14 <https://github.com/kobuki-base/kobuki_velocity_smoother/issues/14>)
+  * Fix the tests to work with modern ROS 2. (#13 <https://github.com/kobuki-base/kobuki_velocity_smoother/issues/13>)
+  * Small fix to the velocity smoother. (#12 <https://github.com/kobuki-base/kobuki_velocity_smoother/issues/12>)
+  * Fix the test so it works with 'colcon test' (#11 <https://github.com/kobuki-base/kobuki_velocity_smoother/issues/11>)
+
+ -- Jihoon Lee <jihoonl@yujinrobot.com>  Fri, 30 Sep 2022 16:00:00 -0000
+
+ros-jazzy-kobuki-velocity-smoother (0.14.0-5bookworm) bookworm; urgency=high
+
+  * [ros2] parameters/topics renamed more sensibly, #8 <https://github.com/kobuki-base/velocity_smoother/pull/8>
+  * [docs] moved from the ROS1 wiki and updated, #8 <https://github.com/kobuki-base/velocity_smoother/pull/8>
+  * [tests] translational smoothing test added, #7 <https://github.com/kobuki-base/velocity_smoother/pull/7>
+
+ -- Jihoon Lee <jihoonl@yujinrobot.com>  Sun, 19 Jan 2020 16:00:00 -0000
+
+ros-jazzy-kobuki-velocity-smoother (0.13.0-5bookworm) bookworm; urgency=high
+
+  * [infra] refactored for ROS 2 and renamed to velocity_smoother, #1 <https://github.com/kobuki-base/velocity_smoother/pull/1>
+
+ -- Jihoon Lee <jihoonl@yujinrobot.com>  Sun, 19 Jan 2020 16:00:00 -0000
+
+ros-jazzy-kobuki-velocity-smoother (0.6.3-5bookworm) bookworm; urgency=high
+
+
+
+ -- Jihoon Lee <jihoonl@yujinrobot.com>  Thu, 04 Dec 2014 16:00:00 -0000
+
+ros-jazzy-kobuki-velocity-smoother (0.6.2-5bookworm) bookworm; urgency=high
+
+  * yocs_velocity_smoother: adds node name param to launcher
+  * adds a little launcher restructing for muxer and smoother
+  * Contributors: Marcus Liebhardt
+
+ -- Jihoon Lee <jihoonl@yujinrobot.com>  Sat, 29 Nov 2014 16:00:00 -0000
+
+ros-jazzy-kobuki-velocity-smoother (0.6.0-5bookworm) bookworm; urgency=high
+
+  * updating package informations. remove email for authors. updating maintainer
+  * Contributors: Jihoon Lee
+
+ -- Jihoon Lee <jihoonl@yujinrobot.com>  Mon, 07 Jul 2014 16:00:00 -0000
+
+ros-jazzy-kobuki-velocity-smoother (0.5.3-5bookworm) bookworm; urgency=high
+
+
+
+ -- Jihoon Lee <jihoonl@yujinrobot.com>  Sun, 23 Mar 2014 16:00:00 -0000
+
+ros-jazzy-kobuki-velocity-smoother (0.5.2-5bookworm) bookworm; urgency=high
+
+
+
+ -- Jihoon Lee <jihoonl@yujinrobot.com>  Mon, 04 Nov 2013 16:00:00 -0000
+
+ros-jazzy-kobuki-velocity-smoother (0.5.1-5bookworm) bookworm; urgency=high
+
+  * Unify naming politics for binaries and plugins.
+
+ -- Jihoon Lee <jihoonl@yujinrobot.com>  Sun, 13 Oct 2013 16:00:00 -0000
+
+ros-jazzy-kobuki-velocity-smoother (0.5.0-5bookworm) bookworm; urgency=high
+
+
+
+ -- Jihoon Lee <jihoonl@yujinrobot.com>  Thu, 10 Oct 2013 16:00:00 -0000
+
+ros-jazzy-kobuki-velocity-smoother (0.4.1-5bookworm) bookworm; urgency=high
+
+
+
+ -- Jihoon Lee <jihoonl@yujinrobot.com>  Mon, 07 Oct 2013 16:00:00 -0000
+
+ros-jazzy-kobuki-velocity-smoother (0.4.0-5bookworm) bookworm; urgency=high
+
+  * Add bugtracker and repo info URLs.
+  * Changelogs at package level.
+  * Separate and comment velocity feedback remaps.
+  * License link fixed.
+
+ -- Jihoon Lee <jihoonl@yujinrobot.com>  Wed, 28 Aug 2013 16:00:00 -0000
+
+ros-jazzy-kobuki-velocity-smoother (0.3.0-5bookworm) bookworm; urgency=high
+
+  * Fix on velocity smoother to deal with low-rate simulated time (namely Stage).
+  * Allow using end velocity commands as robot feedback (until now we can use only odometry).
+
+ -- Jihoon Lee <jihoonl@yujinrobot.com>  Mon, 01 Jul 2013 16:00:00 -0000
+
+ros-jazzy-kobuki-velocity-smoother (0.2.3-5bookworm) bookworm; urgency=high
+
+
+
+ -- Jihoon Lee <jihoonl@yujinrobot.com>  Sun, 14 Apr 2013 16:00:00 -0000
+
+ros-jazzy-kobuki-velocity-smoother (0.2.2-5bookworm) bookworm; urgency=high
+
+
+
+ -- Jihoon Lee <jihoonl@yujinrobot.com>  Sat, 09 Feb 2013 16:00:00 -0000
+
+ros-jazzy-kobuki-velocity-smoother (0.2.1-5bookworm) bookworm; urgency=high
+
+
+
+ -- Jihoon Lee <jihoonl@yujinrobot.com>  Thu, 07 Feb 2013 16:00:00 -0000
+
+ros-jazzy-kobuki-velocity-smoother (0.2.0-5bookworm) bookworm; urgency=high
+
+  * Catkinized.
+
+ -- Jihoon Lee <jihoonl@yujinrobot.com>  Wed, 06 Feb 2013 16:00:00 -0000
+
+ros-jazzy-kobuki-velocity-smoother (0.1.3-5bookworm) bookworm; urgency=high
+
+  * Dynamic reconfigure for velocity/acceleration limits.
+  * Fix on deceleration smoothing.
+
+ -- Jihoon Lee <jihoonl@yujinrobot.com>  Mon, 07 Jan 2013 16:00:00 -0000
+
+ros-jazzy-kobuki-velocity-smoother (0.1.2-5bookworm) bookworm; urgency=high
+
+  * Add test program.
+  * Add licensing.
+
+ -- Jihoon Lee <jihoonl@yujinrobot.com>  Tue, 01 Jan 2013 16:00:00 -0000
+
+ros-jazzy-kobuki-velocity-smoother (0.1.1-5bookworm) bookworm; urgency=high
+
+  * Keep direction constant when smoothing velocities, i.e. draw constant arcs. To do so we must sometimes over-limit dv or dw.
+  * Bound velocity in addition to acceleration. Also set physically meaningful values for acceleration.
+
+ -- Jihoon Lee <jihoonl@yujinrobot.com>  Thu, 20 Dec 2012 16:00:00 -0000
+
+ros-jazzy-kobuki-velocity-smoother (0.1.0-5bookworm) bookworm; urgency=high
+
+  * Initial version.
+
+ -- Jihoon Lee <jihoonl@yujinrobot.com>  Tue, 04 Dec 2012 16:00:00 -0000
+
+
