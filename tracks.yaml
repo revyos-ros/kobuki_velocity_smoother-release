@@ -1,3 +1,4 @@
+release_repo_url: git@github.com:revyos-ros/kobuki_velocity_smoother-release
 tracks:
   foxy:
     actions:
