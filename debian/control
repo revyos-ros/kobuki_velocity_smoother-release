@@ -1,0 +1,12 @@
+Source: ros-jazzy-kobuki-velocity-smoother
+Section: misc
+Priority: optional
+Maintainer: Jihoon Lee <jihoonl@yujinrobot.com>
+Build-Depends: debhelper (>= 9.0.0), python3-matplotlib <!nocheck>, ros-jazzy-ament-cmake-cppcheck <!nocheck>, ros-jazzy-ament-cmake-cpplint <!nocheck>, ros-jazzy-ament-cmake-flake8 <!nocheck>, ros-jazzy-ament-cmake-lint-cmake <!nocheck>, ros-jazzy-ament-cmake-pep257 <!nocheck>, ros-jazzy-ament-cmake-ros, ros-jazzy-ament-cmake-uncrustify <!nocheck>, ros-jazzy-ament-cmake-xmllint <!nocheck>, ros-jazzy-ament-lint-auto <!nocheck>, ros-jazzy-ecl-build, ros-jazzy-geometry-msgs, ros-jazzy-launch-testing <!nocheck>, ros-jazzy-launch-testing-ament-cmake <!nocheck>, ros-jazzy-launch-testing-ros <!nocheck>, ros-jazzy-nav-msgs, ros-jazzy-rcl-interfaces, ros-jazzy-rclcpp, ros-jazzy-rclcpp-components, ros-jazzy-ros2test <!nocheck>, ros-jazzy-ros-workspace
+Homepage: https://index.ros.org/p/kobuki_velocity_smoother/github-kobuki-base-velocity_smoother/
+Standards-Version: 3.9.2
+
+Package: ros-jazzy-kobuki-velocity-smoother
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-jazzy-geometry-msgs, ros-jazzy-nav-msgs, ros-jazzy-rcl-interfaces, ros-jazzy-rclcpp, ros-jazzy-rclcpp-components, ros-jazzy-ros-workspace
+Description: Bound incoming velocity messages according to robot velocity and acceleration limits.
