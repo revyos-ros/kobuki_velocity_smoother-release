@@ -1,0 +1,12 @@
+Source: ros-humble-kobuki-velocity-smoother
+Section: misc
+Priority: optional
+Maintainer: Jihoon Lee <jihoonl@yujinrobot.com>
+Build-Depends: debhelper (>= 9.0.0), python3-matplotlib <!nocheck>, ros-humble-ament-cmake-cppcheck <!nocheck>, ros-humble-ament-cmake-cpplint <!nocheck>, ros-humble-ament-cmake-flake8 <!nocheck>, ros-humble-ament-cmake-lint-cmake <!nocheck>, ros-humble-ament-cmake-pep257 <!nocheck>, ros-humble-ament-cmake-ros, ros-humble-ament-cmake-uncrustify <!nocheck>, ros-humble-ament-cmake-xmllint <!nocheck>, ros-humble-ament-lint-auto <!nocheck>, ros-humble-ecl-build, ros-humble-geometry-msgs, ros-humble-launch-testing <!nocheck>, ros-humble-launch-testing-ament-cmake <!nocheck>, ros-humble-launch-testing-ros <!nocheck>, ros-humble-nav-msgs, ros-humble-rcl-interfaces, ros-humble-rclcpp, ros-humble-rclcpp-components, ros-humble-ros2test <!nocheck>, ros-humble-ros-workspace
+Homepage: https://index.ros.org/p/kobuki_velocity_smoother/github-kobuki-base-velocity_smoother/
+Standards-Version: 3.9.2
+
+Package: ros-humble-kobuki-velocity-smoother
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-humble-geometry-msgs, ros-humble-nav-msgs, ros-humble-rcl-interfaces, ros-humble-rclcpp, ros-humble-rclcpp-components, ros-humble-ros-workspace
+Description: Bound incoming velocity messages according to robot velocity and acceleration limits.
